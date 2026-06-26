@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+
+    <div class="result-container">
+
+        <h1 class="result-title">🌸 Prediction Result</h1>
+
+        <div class="result-card">
+
+            <h2>The Predicted Flower is</h2>
+
+            <p class="prediction">
+                {{ prediction }}
+            </p>
+
+            <p class="description">
+                The machine learning model has analyzed the measurements you entered and predicted the Iris flower species shown above.
+            </p>
+
+        </div>
+
+        <a href="/" class="home-btn">🔙 Predict Another Flower</a>
+
+    </div>
+
+</body>
+</html>
